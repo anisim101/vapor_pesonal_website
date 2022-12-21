@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <title>Vladimir Anisimov</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex_container">
+        <img src="assets/avatar.jpeg" id="avatar_image">
+        <div class="title"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            Hi, I’am Vladimir
+        </div>
+        <div id="subtitle">
+            iOS Software Engineer
+        </div>
+        <div class="links_container">
+            <a href="https://github.com/anisim101" class="links_container_item guthub">
+                <img src="assets/guthub_icon.svg">
+                <div class="links_container_item_text">GitHub</div>
+            </a>
+            <a href="https://www.linkedin.com/in/anisim101/" class="links_container_item linkedin">
+                <img src="assets/LinkedIn_icon.svg">
+                <div class="links_container_item_text">LinkedIn</div>
+            </a>
+            <a href="https://telegram.me/UIViewController" class="links_container_item telegram">
+                <img src="assets/telegram_icon.svg">
+                <div class="links_container_item_text">Telegram</div>
+            </a>
+            <a href="mailto: dev.anisim101@gmail.com" class="links_container_item email">
+                <img src="assets/email_icon.svg">
+                <div class="links_container_item_text">Email</div>
+            </a>
+            <a href="http://instagram.com/anisim101" class="links_container_item instagram">
+                <img src="assets/instagram_icon.svg">
+                <div class="links_container_item_text">Instagram</div>
+            </a>
+            <a href="http://twitter.com/anisim101" class="links_container_item twitter">
+                <img src="assets/twitter_icon.svg">
+                <div class="links_container_item_text">Twitter</div>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="scripts/main.js"></script>
+</html>

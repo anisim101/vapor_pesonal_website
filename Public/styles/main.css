@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'SPRoundedBold';
+    src: url('fonts/SF-Pro-Rounded-Bold.otf') format('opentype');
+}
+
+#avatar_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    display: block;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+} 
+#subtitle {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.links_container {
+    width: 300px;
+}
+
+.links_container_item {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.links_container_item img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.twitter {
+    background: #1DA1F2
+}
+
+.telegram {
+    background: #3FAEE8
+}
+
+.linkedin {
+    background: #2867B2;
+}
+
+.email {
+    background: #0085FF;
+}
+
+.instagram {
+    background: linear-gradient(225deg, #1400C8 0%, #B900B4 50.52%, #F50000 100%);
+}
